@@ -8,27 +8,97 @@
     display: flex;
     gap: 297px;
     position: relative;
+    height: 674px;
 }
 .we-flex::before {
     content: url(../images/Group\ 967.svg);
     position: absolute;
-    top: 50%;
+    top: 8px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
+    z-index: 0;
 }
 .we-flexleft {
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    align-items: center;
+    z-index: 10;
 }
+.data {
+    position: relative;
+    top: 0;
+    left: 232px;
+    width: 505px;
+}
+.office {
+    position: relative;
+    top: 46px;
+    left: 98px;
+    width: 505px;
+}
+.development {
+    position: relative;
+    top: 105px;
+    left: 85px;
+    width: 490px;
+}
+.drupals {
+    position: relative;
+    top: 166px;
+    left: 114px;
+    width: 490px;
+}
+.skills {
+    position: relative;
+    top: 201px;
+    left: 245px;
+    width: 490px;
+    
+}
+
 .we-flexright {
     display: flex;
     flex-direction: row-reverse;
-    gap: 20px;
+    gap: 40px;
+    align-items: center;
     justify-content: flex-end;
+    z-index: 10;
 }
+.profit {
+    position: relative;
+    top: 7px;
+    left: 232px;
+    width: 505px;
+}
+.clients {
+    position: relative;
+    top: 26px;
+    left: 367px;
+    width: 505px;
+}
+.startup {
+    position: relative;
+    top: 43px;
+    left: 399px;
+    width: 491px;
+}
+.new-teshnics {
+    position: relative;
+    top: 23px;
+    left: 364px;
+    width: 505px;
+}
+.relax {
+    position: relative;
+    top: 14px;
+    left: 232px;
+    width: 505px;
+}
+
 .we-flexleft-text {
     text-align: right;
 }
+
 .we-flexright-text {
 }
 .we-left {
@@ -40,12 +110,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.we-img::after {
-    content: '';
-    background-image: url(../images/disk.svg);
-    width: 80px;
-    height: 80px;
-}
+
 .we-gallery {
     margin-top: 50px;
     display: flex;
