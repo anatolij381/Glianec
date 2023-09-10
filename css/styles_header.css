@@ -1,0 +1,135 @@
+.head {
+    /* outline: 1px solid red; */
+    background-color: var(--background-color-header);
+    height: 960px;
+}
+.head-logo {
+    margin-right: 154px;
+}
+.head .nav {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.date {
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 1.25;
+}
+.tel {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--text-color);
+}
+
+.flex-header {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.flex-nav {
+    display: flex;
+    gap: 100px;
+    margin-right: 115px;
+}
+
+.flex-soc {
+    display: flex;
+    gap: 12px;
+    margin-right: 40px;
+}
+.flex-tel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* герой */
+
+.hero {
+    margin-right: 782px;
+}
+.vector {
+    position: relative;
+}
+.vector1::after {
+    content: url(../images/vector1.svg);
+    position: absolute;
+    top: 33px;
+    left: 0px;
+}
+.vector2::after {
+    content: url(../images/vector2.svg);
+    position: absolute;
+    top: 33px;
+    left: 1190px;
+}
+.vector3::after {
+    content: url(../images/vector3.svg);
+    position: absolute;
+    top: 430px;
+    left: 596px;
+}
+.vector4::after {
+    content: url(../images/vector4.svg);
+    position: absolute;
+    top: 95px;
+    right: 0px;
+}
+.vector5::after {
+    content: url(../images/vector5.svg);
+    position: absolute;
+    top: 513px;
+    left: 1094px;
+}
+header.head {
+    position: relative;
+}
+header.head::after {
+    content: url(../images/group1.svg);
+    position: absolute;
+    top: 234px;
+    right: 75px;
+}
+.hero-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 234px;
+
+}
+.hero-button-more {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.25;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.arrow {
+    width: 18px;
+    height: 28px;
+}
+.hero .text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.hero .title {
+    margin-bottom: 20px;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+.button {
+    padding: 20px 82px;
+    margin-top: 40px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    border-radius: 5px;
+    border-color: #FFB800;
+    background: linear-gradient(132deg, #FFDF00 0%, #FFB800 100%);
+}

@@ -1,0 +1,56 @@
+.drupal {
+    position: relative;
+}
+.vector7::after {
+    content: url(../images/vector7.svg);
+    position: absolute;
+    top: 205px;
+    left: 1751px;
+}
+.vector8::after {
+    content: url(../images/vector8.svg);
+    position: absolute;
+    top: 205px;
+    left: 666px;
+}
+.vector9::after {
+    content: url(../images/vector9.svg);
+    position: absolute;
+    top: 205px;
+    left: 551px;
+}
+
+.drupal-title {
+    margin-bottom: 50px;
+}
+.drupal-flex {
+    display: flex;
+    gap: 30px;
+}
+.drupal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px 30px 30px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(69, 77, 82, 0.05);
+    background: #FFF;
+}
+.drupal-img {
+    
+    height: 46px;
+}
+.drupal-content p {
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 1.25
+}
+.drupal-content h4 {
+    font-weight: 600;
+}
+.drupal-accent {
+    font-weight: 700;
+}

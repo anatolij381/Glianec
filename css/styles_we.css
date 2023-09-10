@@ -1,0 +1,56 @@
+.we {
+    background-color: var(--background-color);
+}
+.we-title {
+    margin-bottom: 50px;
+}
+.we-flex {
+    display: flex;
+    gap: 297px;
+    position: relative;
+}
+.we-flex::before {
+    content: url(../images/Group\ 967.svg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.we-flexleft {
+    display: flex;
+    gap: 20px;
+}
+.we-flexright {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.we-flexleft-text {
+    text-align: right;
+}
+.we-flexright-text {
+}
+.we-left {
+    display: flex;
+    flex-direction: column;
+}
+.we-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.we-img::after {
+    content: '';
+    background-image: url(../images/disk.svg);
+    width: 80px;
+    height: 80px;
+}
+.we-gallery {
+    margin-top: 50px;
+    display: flex;
+    gap: 14px;
+}
+.we-accent {
+    font-weight: 700;
+}
